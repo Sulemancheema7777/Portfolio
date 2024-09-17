@@ -12,7 +12,7 @@ const Landing = ({setSelectedPage})=>{
         {/* image part */}
         <div className="md:order-2 flex justify-center basis-[50%] z-10 mt-8">
 
-                <img alt="profile" src="/src/assets/profile-image.png"
+                <img alt="profile" src="../assets/profile-image.png"
                     className="hover:filter hover:saturate-200 transition duration-500  w-full
                     max-w-[400px] md:max-w-[600px] rounded-lg"/>
         </div>
