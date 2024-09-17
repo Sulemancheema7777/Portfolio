@@ -53,7 +53,7 @@ const Contact = ()=>{
                         <p className="text-yellow text-sm flex justify-center md:justify-start items-center gap-2">
                            <FaSquareWhatsapp size={20} fill="#efea30"/> Whatsapp Me!
                         </p>
-                        <a className="underline text-base text-center md:text-start" href="https://wa.me/+923348658244">
+                        <a className="underline text-base text-center md:text-start" target="_blank" href="https://wa.me/+923348658244">
                         +92 334 8658244
                         </a>
                    </div>
@@ -64,7 +64,7 @@ const Contact = ()=>{
                         <p className="text-yellow text-sm flex justify-center md:justify-start items-center gap-2">
                            <FaEnvelope  size={20} fill="#efea30"/> Mail Me!
                         </p>
-                        <a  className="underline text-base text-center md:text-start" href="https://mailto:sulemancheema1992@gmail.com">
+                        <a  className="underline text-base text-center md:text-start" target="_blank" href="https://mailto:sulemancheema1992@gmail.com">
                         sulemancheema1992@gmail.com
                         </a>
                    </div>
