@@ -14,7 +14,7 @@ const Project = ({title,link,subtitle})=>{
              }}
         >
             <a href={link} className="block hover:opacity-70 transition duration-500" target="_blank" rel="noreferre">
-              <img className="rounded-tl-2xl rounded-tr-2xl h-[500px]" src={`../src/assets/${projectTitle}.png`} alt={projectTitle}/>
+              <img className="rounded-tl-2xl rounded-tr-2xl h-[500px]" src={`../assets/${projectTitle}.png`} alt={projectTitle}/>
               <div className="flex justify-between items-center p-4">
                  <div>
                     <p className="text-xs font-semibold text-left text-gray-300">{subtitle}</p>
