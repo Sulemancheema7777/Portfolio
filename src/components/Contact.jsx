@@ -31,7 +31,7 @@ const Contact = ()=>{
                         <LineGradient/>
                     </p>
                     <p className="w-full sm:w-4/6 mx-auto text-lg text-center font-semibold mt-10">
-                    You have Anything on your mind, don't hesitate to get in touch with me!
+                    If you have anything on your mind, don't hesitate to get in touch with me!
                     We can always have a discussion and find a solution.
                     </p>
                 </div>
