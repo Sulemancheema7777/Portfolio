@@ -5,8 +5,10 @@ import LineGradient from "./components/LineGradient.jsx";
 import MySkills from "./components/MySkills.jsx";
 import Projects from "./components/Projects.jsx";
 import Testimonials from "./components/Testimonials.jsx";
+import Certifications from "./components/Certifications.jsx";
 import Contact from "./components/Contact.jsx"
 import Footer from "./components/Footer.jsx"
+
 
 function App() {
 
@@ -51,6 +53,13 @@ function App() {
       <div className="w-5/6 mx-auto">
        <Testimonials/>
       </div>
+       
+      <LineGradient/>
+      
+      <div className="w-5/6 mx-auto">
+       <Certifications/>
+      </div>
+
 
       <LineGradient/>
       

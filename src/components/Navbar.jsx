@@ -22,7 +22,7 @@ const Navbar =  ({isTopOfPage,selectedPage,setSelectedPage})=>{
     const [isMenuToggled,setIsMenuToggled] = useState(false);
     const isAboveSmallScreen = useMediaQuery('(min-width:768px)');
     const navBarBackground  = isTopOfPage?"":"fixed border-b-0 shadow-md bg-black";
-    const navLinks = ['skills','projects','testimonials','contact'];
+    const navLinks = ['skills','projects','testimonials','certifications','contact'];
 
     return(
         <nav className={`${ navBarBackground}   z-40 w-full py-3 transition duration-500 border-b-2 border-white`}>
