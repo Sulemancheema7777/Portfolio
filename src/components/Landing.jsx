@@ -10,14 +10,13 @@ const Landing = ({setSelectedPage})=>{
     return(
      <section id="home" className="md:flex md:justify-between md:items-center md:h-full gap-16 py-10">
         {/* image part */}
-        <div className="md:order-2 flex justify-center basis-[50%] z-10 mt-8">
+        <div className="md:order-2 flex justify-center basis-[40%] z-10 mt-8">
 
-                <img alt="profile" src="../assets/profile-image.png"
-                    className="hover:filter hover:saturate-200 transition duration-500  w-full
-                    max-w-[400px] md:max-w-[600px] rounded-lg"/>
+                <img alt="profile" src="../assets/sulemancheema.jpg"
+                    className=" w-full max-w-[350px]"/>
         </div>
         {/* text part */}
-        <div className="z-30 basis-[50%] mt-12 md:mt-8">
+        <div className="z-30 basis-[60%] mt-12 md:mt-8">
              {/* heading */}
              <motion.div initial="hidden" whileInView="visible" viewport={{once:true,amount:0.5}}
              transition={{duration:0.5}}
