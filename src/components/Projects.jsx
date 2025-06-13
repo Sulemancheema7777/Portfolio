@@ -14,7 +14,7 @@ const Project = ({title,link,subtitle})=>{
              }}
         >
             <a href={link} className="block hover:opacity-70 transition duration-500" target="_blank" rel="noreferre">
-              <img className="rounded-tl-2xl rounded-tr-2xl h-[400px]" src={`../assets/${projectTitle}.png`} alt={projectTitle}/>
+              <img className="rounded-tl-2xl rounded-tr-2xl" src={`../assets/${projectTitle}.png`} alt={projectTitle}/>
               <div className="flex justify-between items-center p-4">
                  <div>
                     <p className="text-xs font-semibold text-left text-gray-300">{subtitle}</p>
@@ -58,7 +58,7 @@ const Projects = ()=>{
         <div className="mt-16 sm:grid sm:grid-cols-3 gap-6">
             <Project title="Elaina Darden" subtitle="Complete Store Design" link="https://elainadarden.com/"/>
             <Project title="Summer of Spivy" subtitle="Complete Store Design" link="https://summerofspivey.com/"/>
-            <Project title="Daiquri" subtitle="Complete Store Design" link="https://daiquiriparis.com/"/>
+            <Project title="Daiquiri" subtitle="Complete Store Design" link="https://daiquiriparis.com/"/>
             <Project title="Diamond Aupair" subtitle="Complete Store Design" link="https://diamondaupair.com/"/>
             <Project title="Storied Beauty" subtitle="Website Redo" link="https://storied-beauty.com/"/>
             <Project title="Bondell" subtitle="Custom Website Design" link="https://bondell.com/"/>
