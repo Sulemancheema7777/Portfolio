@@ -7,7 +7,7 @@ const Project = ({title,link,subtitle})=>{
     return (
         <motion.div className="bg-grey w-full border-border-custom rounded-2xl mb-7"
             initial="hidden" whileInView="visible" viewport={{once:true,amount:0.5}}
-             transition={{delya:0.2,duration:0.5}}
+             transition={{delay:0.2,duration:0.5}}
              variants={{
                 hidden:{opacity:0,y:-100},
                 visible:{opacity:1,y:0}
@@ -56,15 +56,23 @@ const Projects = ()=>{
 
         {/* projects */}
         <div className="mt-16 sm:grid sm:grid-cols-3 gap-6">
-            <Project title="La Perfumerie" subtitle="PDP Customizations" link="https://la-parfumerie.shop/"/>            
+            <Project title="Elaina Darden" subtitle="Complete Store Design" link="https://elainadarden.com/"/>
+            <Project title="Summer of Spivy" subtitle="Complete Store Design" link="https://summerofspivey.com/"/>
+            <Project title="Daiquri" subtitle="Complete Store Design" link="https://daiquiriparis.com/"/>
+            <Project title="Diamond Aupair" subtitle="Complete Store Design" link="https://diamondaupair.com/"/>
+            <Project title="Storied Beauty" subtitle="Website Redo" link="https://storied-beauty.com/"/>
+            <Project title="Bondell" subtitle="Custom Website Design" link="https://bondell.com/"/>
+            <Project title="Sydney Pulaski" subtitle="Website Design / Redo" link="https://sydneypulaski.com/"/>
+            <Project title="Shoe Hive" subtitle="Custom Design" link="https://theshoehive.com/"/>
+            <Project title="Serpentine Jewels" subtitle="Custom Code / Features" link="https://serpentinejewels.com/"/>
+            <Project title="Wolfe Home" subtitle="Custom Design" link="https://wolfehome.com/"/>
+            <Project title="Your Top Ten" subtitle="PSD to Shopify" link="https://shareyourtopten.com/"/>            
             <Project title="Mini Voyager" subtitle="Migration WOOcomm to Shopify" link="https://minivoyager.com/"/>
             <Project title="Green Juju" subtitle="Migration WOOcomm to Shopify" link="https://greenjuju.com/"/>
             <Project title="Annie Elise" subtitle="Custom Code" link="https://annieelise.com/"/>
             <Project title="Modern Wall Art" subtitle="Complete Store Setup" link="https://modernwallarts.com/"/>
-             <Project title="Amore Parfume" subtitle="Complete Store Setup" link="https://amoreparfums.com/"/>
-            <Project title="Serpentine Jewels" subtitle="Custom Code / Features" link="https://serpentinejewels.com/"/>
-            <Project title="Wolfe Home" subtitle="Custom Design" link="https://wolfehome.com/"/>
-            <Project title="Your Top Ten" subtitle="PSD to Shopify" link="https://shareyourtopten.com/"/>
+            <Project title="Amore Parfume" subtitle="Complete Store Setup" link="https://amoreparfums.com/"/>
+            
             
             
         </div>

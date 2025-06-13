@@ -29,11 +29,11 @@ const Landing = ({setSelectedPage})=>{
                 M.Suleman <span className="text-yellow">Cheema</span>
               </h2>
               <h1 className="mt-1 text-base sm:text-lg text-center md:text-start">
-                <span className="text-yellow">Shopify</span> Front-End Developer
+                <span className="text-yellow">Shopify</span> Developer
               </h1>
 
               <p className="mt-10 mb-7 text-sm text-justify  ">
-                As a <span className="text-yellow">Frontend Shopify Developer,</span> I specialize in creating 
+                As a <span className="text-yellow">Shopify Developer,</span> I specialize in creating 
                 highly customized, 
                 conversion-focused e-commerce websites. 
                 With a deep understanding of <span className="text-yellow">Shopify’s</span> Liquid template language and modern
