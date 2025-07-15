@@ -75,7 +75,7 @@ const Contact = ()=>{
                        <FaLocationDot   size={20} fill="#efea30"/> Location
                     </p>
                     <p className="text-base text-center md:text-start">
-                        Islamabad, Pakistan.
+                        Ilmenau,Germany.
                     </p>
                    </div>
 
