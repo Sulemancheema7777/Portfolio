@@ -39,12 +39,6 @@ function App() {
       <LineGradient/>
       
       <div className="w-5/6 mx-auto ">
-       <MySkills/>
-      </div>
-
-      <LineGradient/>
-      
-      <div className="w-5/6 mx-auto ">
        <Projects/>
       </div>
 
@@ -52,6 +46,12 @@ function App() {
       
       <div className="w-5/6 mx-auto">
        <Testimonials/>
+      </div>
+
+      <LineGradient/>
+      
+      <div className="w-5/6 mx-auto ">
+       <MySkills/>
       </div>
        
       <LineGradient/>

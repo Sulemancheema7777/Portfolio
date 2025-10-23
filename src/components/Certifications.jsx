@@ -43,18 +43,23 @@ const Certifications = ()=>{
      const qualArray = [
       {
          icon:<FaSchool className="hover:cursor-pointer hover:scale-110 transition duration-500" size={20} fill="#EFEA30" />,
-         platform:'LeaderHouse School, Chakwal',
+         platform:'LeaderHouse, Pakistan',
          title:`Matriculation (Computer Science)`
       },
       {
          icon:<FaSchool className="hover:cursor-pointer hover:scale-110 transition duration-500" size={20} fill="#EFEA30" />,
-         platform:'Channab College, Chakwal',
+         platform:'Channab College, Pakistan',
          title:`Intermediate (Pre-Engineering)`
       },
       {
          icon:<FaUniversity className="hover:cursor-pointer hover:scale-110 transition duration-500" size={20} fill="#EFEA30" />,
-         platform:'UET, Taxila',
+         platform:'UET Taxila, Pakistan',
          title:`Bachelor in Software Engineering`
+      },
+      {
+         icon:<FaUniversity className="hover:cursor-pointer hover:scale-110 transition duration-500" size={20} fill="#EFEA30" />,
+         platform:'TU, Ilmenau, Germany',
+         title:`Master of Research in Computer and Systems Engineering`
       }
     ]
     return (

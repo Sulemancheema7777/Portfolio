@@ -26,26 +26,48 @@ const Landing = ({setSelectedPage})=>{
              }}
              >
               <h2 className="font-bold text-center text-2xl xs:text-4xl sm:text-5xl md:text-4xl md:text-start ">
-                M.Suleman <span className="text-yellow">Cheema</span>
+                Suleman <span className="text-yellow">Cheema</span>
+                <span className="text-yellow  text-lg"> ( Shopify Developer ) </span>
               </h2>
-              <h1 className="mt-1 text-base sm:text-lg text-center md:text-start">
-                <span className="text-yellow">Shopify</span> Developer
-              </h1>
 
-              <p className="mt-10 mb-7 text-sm text-justify  ">
-                As a <span className="text-yellow">Shopify Developer,</span> I specialize in creating 
-                highly customized, 
-                conversion-focused e-commerce websites. 
-                With a deep understanding of <span className="text-yellow">Shopify’s</span> Liquid template language and modern
-                <span className="text-yellow"> front-end technologies (HTML, CSS, JavaScript, React), </span> 
-                  I transform business goals into engaging user experiences that 
-                  drive sales and growth. My expertise lies in optimizing site performance, 
-                  implementing custom features, and enhancing UX to elevate brands in the competitive
-                   online marketplace. 
-                   I’m passionate about <span className="text-yellow">innovation, problem-solving,
-                     and delivering high-quality solutions </span> 
-                    tailored to meet each client’s unique needs.
-              </p>
+              <li className="ml-4 mt-5 mb-1 text-sm text-justify">
+                  <span className="text-yellow">As a Shopify Developer, </span>
+                   I specialize in creating highly customized, conversion-focused e-commerce websites.
+              </li>
+              <li className="ml-4 mb-1 text-sm text-justify">
+                  Working and building  <span className="text-yellow">custom shopify themes </span>
+                  that aligns with the user's demand.
+              </li>
+              <li className="ml-4 mb-1 text-sm text-justify  ">
+                  Making custom changes to <span className="text-yellow"> shopify's product page,collection page  </span>
+                   and developing other custom pages.
+              </li>
+              <li className="ml-4 mb-1 text-sm text-justify  ">
+                  Checkout  <span className="text-yellow"> app integration </span>
+                  and configuring shipping policies.
+              </li>
+              <li className="ml-4 mb-1 text-sm text-justify  ">
+                  Working on <span className="text-yellow"> Checkout extensions, discounts </span>
+                  and displaying up sell on the checkout page.
+              </li>
+              <li className="ml-4 mb-1 text-sm text-justify  ">
+                  Cart <span className="text-yellow"> free shipping and up sell </span>
+                  plus trust badges.
+              </li>
+              <li className="ml-4 mb-1 text-sm text-justify  ">
+                  Landing page  <span className="text-yellow"> testimonials and custom sections </span>
+                  to build trust.
+              </li>
+
+              <li className="ml-4 mb-1 text-sm text-justify  ">
+                  Converting  <span className="text-yellow"> figma to shopify </span>
+                  pixel perfect design.
+              </li>
+
+              <li className="ml-4 mb-1 text-sm text-justify  ">
+                  Understanding of  <span className="text-yellow"> Liquid, Html, css, JavaScript </span>
+                  and 2.0 themes of Shopify.
+              </li>
               
              </motion.div>
 
