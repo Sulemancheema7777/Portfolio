@@ -65,7 +65,7 @@ const Projects = ()=>{
             <Project title="Sydney Pulaski" subtitle="Website Design / Redo" link="https://sydneypulaski.com/"/>
             <Project title="Shoe Hive" subtitle="Custom Design" link="https://theshoehive.com/"/>
             <Project title="Serpentine Jewels" subtitle="Custom Code / Features" link="https://serpentinejewels.com/"/>
-            <Project title="Wolfe Home" subtitle="Custom Design" link="https://wolfehome.com/"/>
+            {/* <Project title="Wolfe Home" subtitle="Custom Design" link="https://wolfehome.com/"/> */}
             <Project title="Your Top Ten" subtitle="PSD to Shopify" link="https://shareyourtopten.com/"/>            
             <Project title="Mini Voyager" subtitle="Migration WOOcomm to Shopify" link="https://minivoyager.com/"/>
             <Project title="Green Juju" subtitle="Migration WOOcomm to Shopify" link="https://greenjuju.com/"/>

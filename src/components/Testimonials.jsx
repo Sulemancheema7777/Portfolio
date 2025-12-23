@@ -19,13 +19,6 @@ const Testimonials = ()=>{
            icon:'../assets/abigail.png'
         },
         {
-           text:`Absolutely amazing job, Quick turnaround, built complete store and explained things
-            to me in a video so that i can handle things in future.I will definitely recommend Suleman.
-             for Shopify Website Design. Thank you very much!`,
-           author:'Buddy J',
-           icon:'../assets/no-pic.svg'
-        },
-        {
            text:`Working with Suleman was a fantastic experience. He delivered everything exactly to our 
            specifications on the first attempt. Any revisions were handled swiftly. His communication was
             excellent, and the job was completed promptly. We'll definitely hire him again!`,
@@ -38,6 +31,13 @@ const Testimonials = ()=>{
            He even took the time to teach me how to manage Shopify on my own. Thumbs up!"`,
            author:'Bilal',
            icon:'../assets/bilal.png'
+        },
+        {
+           text:`Absolutely amazing job, Quick turnaround, built complete store and explained things
+            to me in a video so that i can handle things in future.I will definitely recommend Suleman.
+             for Shopify Website Design. Thank you very much!`,
+           author:'Buddy J',
+           icon:'../assets/no-pic.svg'
         },
         {
            text:`The work was of outstanding quality, showing excellent professionalism and meticulous 

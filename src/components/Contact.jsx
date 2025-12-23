@@ -54,7 +54,7 @@ const Contact = ()=>{
                            <FaSquareWhatsapp size={20} fill="#efea30"/> Whatsapp Me!
                         </p>
                         <a className="underline text-base text-center md:text-start" target="_blank" href="https://wa.me/+923348658244">
-                        +49 176286 40652
+                        +49 15565734319
                         </a>
                    </div>
 
