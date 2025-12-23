@@ -12,8 +12,8 @@ const Landing = ({setSelectedPage})=>{
         {/* image part */}
         <div className="md:order-2 flex justify-center basis-[40%] z-10 mt-8">
 
-                <img alt="profile" src="../assets/sulemancheema.jpg"
-                    className=" w-full max-w-[350px]"/>
+                <img alt="profile" src="../assets/sulemancheema.jpeg"
+                    className=" w-full max-w-[450px] rounded-md border-yellow border-4"/>
         </div>
         {/* text part */}
         <div className="z-30 basis-[60%] mt-12 md:mt-8">
