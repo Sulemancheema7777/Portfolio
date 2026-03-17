@@ -10,42 +10,43 @@ const MySkills = ()=>{
       {
          icon:<FaShopify className="hover:cursor-pointer hover:scale-110 transition duration-500"
                     size={20} fill="#EFEA30" />,
-         title:'Shopify Store Setup',
-         description:`I provide a hassle-free Shopify store setup, handling 
-         everything from essential page creation to payment gateway and
-        shipping configuration. With my expertise, your store will be visually appealing,
-         fully functional, and optimized for maximum sales potential. Let me take care of the
-          technical details while you focus on growing your business with a successful online store.`
+         title:'Shopify Store Setup & Development',
+         description:`I provide professional Shopify store setup and development, 
+         handling everything from essential page creation to payment gateway integration 
+         and shipping configuration.Your Shopify store will be visually appealing, fully 
+         functional, and optimized for conversions. I make sure your store is ready to sell 
+         from day one while you focus on growing your business.`
       },
       {
          icon:<FaLaptopCode className="hover:cursor-pointer hover:scale-110 transition duration-500"
                     size={20} fill="#EFEA30" />,
-         title:'Coding Custom Features',
-         description:`I specialize in custom coding solutions that adapt your Shopify store to your 
-         exact requirements. From personalizing the look and structure of your theme to integrating distinct 
-         features and optimizing functionality, I have the expertise to turn your vision into reality. 
-         Additionally, I provide smooth and secure migration services to ensure a hassle-free transition for
-          your online store.`
+         title:'Custom Shopify Features & Theme Development',
+         description:`I specialize in custom Shopify development, creating tailored features 
+         that match your business needs. From customizing Shopify themes and product pages to building unique
+         functionality and integrations, I turn your ideas into powerful e-commerce solutions. I also provide 
+         Shopify store migration services, ensuring a smooth and secure transition from platforms like 
+         WooCommerce, Magento, or BigCommerce.`
       },
       {
          icon:<FaPeopleGroup className="hover:cursor-pointer hover:scale-110 transition duration-500"
                     size={20} fill="#EFEA30" />,
-         title:'Consultancy/Discussion',
-         description:`As a Certified Shopify Consultant, I offer expert advice to maximize your 
-         e-commerce success. Whether you're launching a new store or optimizing an existing one, 
-         my tailored consultation covers everything from choosing the right plan and themes to 
-         implementing effective marketing strategies. I’ll provide actionable insights and solutions
-          to boost your online store's performance and drive sales, focusing on your unique goals and
-           challenges.`
+         title:'Shopify Consultation & Store Optimization',
+         description:`As an experienced Shopify consultant, I help businesses make
+          the right decisions for their e-commerce stores. Whether you're launching a 
+          new Shopify store or improving an existing one, I provide strategic guidance on store 
+          structure, theme selection, conversion optimization, and performance improvements.
+          My goal is to help you increase conversions, improve user experience, and grow your Shopify 
+          business.`
       },
        {
          icon:<FaStore className="hover:cursor-pointer hover:scale-110 transition duration-500"
                     size={20} fill="#EFEA30" />,
-         title:'Shopify+ Solution / Apps',
-         description:`With my expertise in Shopify Plus, I deliver advanced solutions and features not 
-         available on other plans, eliminating the need for multiple apps for checkout customizations, 
-         discounts, bundles, and subscriptions. Leveraging Shopify Plus's built-in functions, I can enhance
-          your store’s efficiency and provide a seamless shopping experience, all while saving you money.`
+         title:'Shopify Plus Development & Advanced Solutions',
+         description:`I provide Shopify Plus development services, helping growing brands unlock the advanced 
+         capabilities of Shopify Plus. From checkout customization and advanced discounts to bundles, 
+         subscriptions, and automation, I build powerful solutions that reduce reliance on multiple 
+         apps and improve your store’s performance. Using Shopify Plus features and custom development, 
+         I create scalable solutions that support your business as it grows.`
        }
    ];
 
@@ -62,8 +63,8 @@ const MySkills = ()=>{
                 visible:{opacity:1,y:0}
              }}>
             <div>
-                <p className="font-semibold text-2xl xs:text-4xl sm:text-5xl md:text-4xl w-max mx-auto mb-5 text-yellow">
-                  SKILLS / SERVICES
+                <p className="font-semibold text-2xl xs:text-4xl sm:text-5xl md:text-4xl w-100 mx-auto mb-5 text-yellow">
+                  Shopify Development Services
                   <LineGradient />
                 </p>
                 <TechStack/>

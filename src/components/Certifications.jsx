@@ -72,8 +72,8 @@ const Certifications = ()=>{
                         hidden:{opacity:0,y:-100},
                         visible:{opacity:1,y:0}
                     }}>
-                        <p className="text-yellow font-semibold text-2xl xs:text-4xl sm:text-5xl md:text-4xl w-max mx-auto mb-5">
-                            CERTIFICATIONS
+                        <p className="text-yellow font-semibold text-2xl xs:text-4xl sm:text-5xl md:text-4xl w-full mx-auto text-center mb-5">
+                            Certifications
                             <LineGradient/>
                         </p>
             </motion.div>
@@ -106,8 +106,8 @@ const Certifications = ()=>{
                         hidden:{opacity:0,y:-100},
                         visible:{opacity:1,y:0}
                     }}>
-                        <p className="text-yellow font-semibold text-2xl xs:text-4xl sm:text-5xl md:text-4xl w-max mx-auto mb-5">
-                            QUALIFICATION
+                        <p className="text-yellow font-semibold text-2xl xs:text-4xl sm:text-5xl md:text-4xl w-full mx-auto mb-5">
+                            Qualification
                             <LineGradient/>
                         </p>
             </motion.div>

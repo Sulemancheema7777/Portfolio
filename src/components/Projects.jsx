@@ -48,10 +48,12 @@ const Projects = ()=>{
                 hidden:{opacity:0,y:-100},
                 visible:{opacity:1,y:0}
              }}>
-               <p className="text-yellow font-semibold text-2xl xs:text-4xl sm:text-5xl md:text-4xl w-max mx-auto mb-5">
-                    PROJECTS / COLLABS
+               <p className="text-yellow font-semibold text-2xl xs:text-4xl sm:text-5xl md:text-4xl w-full mx-auto mb-5">
+                    Shopify Projects & Case Studies
                     <LineGradient/>
                 </p>
+                <p>A selection of Shopify stores and custom development projects I’ve worked on, helping brands
+                     improve their online presence and increase sales.</p>
         </motion.div>
 
         {/* projects */}

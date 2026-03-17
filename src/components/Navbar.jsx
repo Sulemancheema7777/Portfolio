@@ -14,14 +14,14 @@ const Link = ({page,selectedPage,setSelectedPage,setIsMenuToggled=true,isAboveSm
                           if(!isAboveSmallScreen)  setIsMenuToggled(false);
                        }
                    }>
-            {lowerCasePage === 'home' ? "SulemanCheema" : page}
+            {lowerCasePage === 'home' ? "ShopifyDeveloper" : page}
         </AnchorLink>
     )
 }
 const Navbar =  ({isTopOfPage,selectedPage,setSelectedPage})=>{
     const [isMenuToggled,setIsMenuToggled] = useState(false);
     const isAboveSmallScreen = useMediaQuery('(min-width:1000px)');
-    const navBarBackground  = isTopOfPage?"":"fixed border-b-0 shadow-md bg-black";
+    const navBarBackground  = isTopOfPage ? "fixed bg-transparent":"fixed border-b-0 shadow-md bg-black";
     const navLinks = ['skills','projects','testimonials','certifications','contact'];
 
     return(

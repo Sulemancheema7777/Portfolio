@@ -26,13 +26,13 @@ const Contact = ()=>{
                     visible:{opacity:1,x:0}
                 }}>
                 <div className="text-center">
-                <p className="text-yellow font-semibold text-2xl xs:text-4xl sm:text-5xl md:text-4xl w-max mx-auto mb-5">
-                        CONTACT ME!
+                <p className="text-yellow font-semibold text-2xl xs:text-4xl sm:text-5xl md:text-4xl w-full md:w-2/4 mx-auto text-center mb-5">
+                        Hire a Shopify Developer
                         <LineGradient/>
                     </p>
                     <p className="w-full sm:w-4/6 mx-auto text-lg text-center font-semibold mt-10">
-                    If you have anything on your mind, don't hesitate to get in touch with me!
-                    We can always have a discussion and find a solution.
+                    Whether you need store setup, custom development, design implementation, or store optimization, I can help bring your ideas to life.
+                     Get in touch and let's discuss how we can improve your Shopify store.
                     </p>
                 </div>
         </motion.div>

@@ -116,12 +116,12 @@ const Testimonials = ()=>{
                 hidden:{opacity:0,x:-100},
                 visible:{opacity:1,x:0}
              }}>
-            <p className="text-center font-semibold text-2xl xs:text-4xl sm:text-5xl md:text-4xl w-max mx-auto mb-5">
-                TESTIMONIALS
+            <p className="text-center font-semibold text-2xl xs:text-4xl sm:text-5xl md:text-4xl w-full md:w-2/4 mx-auto mb-5 text-yellow">
+                Client Testimonials
                 <LineGradient/>
             </p>
-            <p className="mt-10 text-center md:w-1/3 mx-auto font-semibold">
-                Endorsements from past clients!
+            <p className="mt-10 text-center md:w-1/3 mx-auto font-semibold w-100">
+                Feedback from clients I've worked with on Shopify development and custom store solutions.
             </p>
         </motion.div>
 
