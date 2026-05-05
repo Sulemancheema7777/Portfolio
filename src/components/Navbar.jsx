@@ -1,6 +1,7 @@
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
+import logo from "../assets/logo.png";
 
 const Link = ({page,selectedPage,setSelectedPage,setIsMenuToggled=true,isAboveSmallScreen=true})=>{
     let lowerCasePage = page.toLowerCase();
@@ -22,18 +23,14 @@ const Navbar =  ({isTopOfPage,selectedPage,setSelectedPage})=>{
     const [isMenuToggled,setIsMenuToggled] = useState(false);
     const isAboveSmallScreen = useMediaQuery('(min-width:1000px)');
     const navBarBackground  = isTopOfPage ? "fixed bg-transparent":"fixed border-b-0 shadow-md bg-black";
-    const navLinks = ['skills','projects','testimonials','certifications'];
+    const navLinks = ['skills','projects','testimonials','certifications','contact'];
 
     return(
         <nav className={`${ navBarBackground}   z-40 w-full py-3 transition duration-500 border-b-2 border-white`}>
             <div className={`flex items-center justify-between mx-auto w-5/6`}>
-                <h4 className="text-xl xs:text-3xl font-bold text-white">
-                    <Link
-                    page="home"
-                    selectedPage={selectedPage}
-                    setSelectedPage={setSelectedPage}
-                    />
-                </h4>
+                <AnchorLink href="#home" onClick={() => setSelectedPage("home")}>
+                    <img src={logo} alt="logo" className="h-14 w-auto" />
+                </AnchorLink>
                 {/* desktop navigation */}
                 {isAboveSmallScreen ? 
                 (
