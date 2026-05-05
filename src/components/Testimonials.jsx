@@ -1,6 +1,5 @@
 import LineGradient from "./LineGradient";
 import {motion} from "framer-motion";
-import { FaQuoteLeft,FaQuoteRight  } from "react-icons/fa6";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -144,22 +143,21 @@ const Testimonials = ()=>{
                 }}
                 >
                 {feedBack.map((item,index)=>(
-                    <SwiperSlide key={index}>
-                        <motion.div className="min-h-[502px] flex flex-col justify-between mb-0 text-center bg-grey p-5 border rounded-3xl border-border-custom" 
+                    <SwiperSlide key={index} className="h-auto">
+                        <motion.div className="h-full flex flex-col text-center bg-grey p-5 border rounded-3xl border-border-custom"
                             initial="hidden" whileInView="visible" viewport={{once:true,amount:0.5}}
                             transition={{duration:0.5}}
                             variants={{
                                 hidden:{opacity:0,scale:0.8},
                                 visible:{opacity:1,scale:1}
                             }}>
-                            <img className="mx-auto w-[100px] h-[100px] rounded-full" src={item.icon}/>
-                            <FaQuoteLeft size={40} fill="#efea30" className="mt-5" /> 
+                            <div className="flex flex-col items-center gap-2 mb-3">
+                                <img className="w-[100px] h-[100px] rounded-full" src={item.icon}/>
+                                <p className="font-semibold text-yellow">{item.author}</p>
+                            </div>
                             <p className="text-sm font-semibold">
                                {item.text}
                             </p>
-                            <FaQuoteRight size={40} fill="#efea30" className="ml-auto mb-5"/>
-                            <p className="text-center font-semibold text-yellow">{item.author}</p>
-                            
                         </motion.div>
                     </SwiperSlide>
                 ))}
