@@ -64,8 +64,8 @@ const Contact = ()=>{
                         <p className="text-yellow text-sm flex justify-center md:justify-start items-center gap-2">
                            <FaEnvelope  size={20} fill="#efea30"/> Mail Me!
                         </p>
-                        <a  className="underline text-base text-center md:text-start" target="_blank" href="https://mailto:sulemancheema1992@gmail.com">
-                        sulemancheema1992@gmail.com
+                        <a  className="underline text-base text-center md:text-start" target="_blank" href={`mailto:${import.meta.env.VITE_CONTACT_EMAIL}`}>
+                        {import.meta.env.VITE_CONTACT_EMAIL}
                         </a>
                    </div>
 
